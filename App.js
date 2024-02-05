@@ -15,11 +15,10 @@ const settings = {
 
 const icons = {
   location_not_known: 'crosshairs',
-  location_searching: 'crosshairs-question', // Change the icon name to a valid one
-  location_found: 'crosshairs-gps', // Change the icon name to a valid one
+  location_searching: 'crosshairs-question', 
+  location_found: 'crosshairs-gps', 
 }
 
-// Create a stack navigator
 const Stack = createNativeStackNavigator();
 
 export default function App() {
